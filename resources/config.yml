@@ -1,0 +1,23 @@
+---
+# true : Prevents players from losing items on death
+# false : Players from losing items on death
+KeepInventory: true
+
+# all : Prevents players from losing items on death in all worlds
+# whitelist : Prevents players from losing items on death in worlds listed below
+# blacklist : Prevents players from losing items on death in all worlds that are not listed below
+Mode: all
+Worlds: []
+# Worlds: ["world1", "world2"]
+
+# Notifications sent to players after death
+MsgAfterDeath: "Items in your inventory have been kept"
+
+# none : No messages have been sent to the player
+# message : Sends a direct chat message to a player
+# title : Send a title text to the user's screen
+# popup : Sends a popup message to the player
+# tip : Sends a tip message to the player
+# actionbar : Send a small text to the user's screen
+MsgType: none
+...

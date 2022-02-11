@@ -1,0 +1,17 @@
+---
+name: KeepInventory
+version: 2.0.0
+api:
+- 4.0.0
+author:
+- KhoaGamingVN
+- NhanAZ
+main: NhanAZ\KeepInventory\Main
+
+commands:
+  nick:
+    description: nick
+website: https://github.com/NhanAZ
+src-namespace-prefix: NhanAZ\KeepInventory
+description: Prevents players from losing items on death
+...
